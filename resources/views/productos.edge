@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title></title>
+  {{ style('style') }}
+</head>
+<body>
+    <h1 class="titleapi">Tabla de Productos Base de Datos </h1>
+    
+    <div class="table">
+        <table class="table is-bordered is-striped is-narrow is-fullwidth margin:">
+            <thead>
+              <tr>
+                <th style="width: 80px;">Name</th>
+                <th>Description</th>
+                <th style="width: 120px;">Price</th>
+                <th>Stock</th>
+              </tr>
+            </thead>
+            <br>
+            <tbody>
+                @each(producto in productos)
+                  <tr>
+                    <th>
+                      {{ producto.name}}
+                    </th>
+                    <th>
+                      {{producto.description}}
+                    </th>
+                    <th>
+                        {{producto.price}}
+                    </th>
+                    <th>
+                        {{producto.stock}}
+                    </th>
+                  </tr>
+             
+                  @endeach
+            </table>
+     </div>
+ 
+</body>
+</html>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
